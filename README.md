@@ -4,11 +4,11 @@ The image is hosted on DockerHub as [jpteasdale/shopify-theme](https://hub.docke
 
 To use, run the following from your theme directory. 
 ```
-docker run --rm -it -v ${PWD}:/theme jpteasdale/shopify-theme:0.6.10
+docker run --rm -it -v ${PWD}:/theme jpteasdale/shopify-theme
 ```
 
 
 To run a command, just include it at the end, ie:
 ```
-docker run --rm -it -v ${PWD}:/theme jpteasdale/shopify-theme:0.6.10 watch
+docker run --rm -it -v ${PWD}:/theme jpteasdale/shopify-theme watch
 ```
